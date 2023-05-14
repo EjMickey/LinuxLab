@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "print.h"
+
 int main()
 {
-printf("%s","Hello world\n");
-return 0;
+	print();
+	return 0;
 }
